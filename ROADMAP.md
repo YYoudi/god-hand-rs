@@ -7,7 +7,7 @@ Updated: 2026-11-09. **LasVola PC continuation active; independent engine paused
 Each task is a verifiable deliverable, not an estimate of game coverage.
 Done applies only to the stated criteria. No release schedule is promised.
 
-Next useful evidence: Investigate safe pause/resume and input boundaries of the existing PC controls screen. Genuine game Save/exit/Load awaits a future legitimate play/test state; do not substitute snapshots or autonomous level completion.
+Next useful evidence: Investigate safe settings pause/resume and input boundaries, keeping the original runtime as control. Retain the bounded diagnostic classification and all warnings; genuine game Save/Load still needs a future legitimate state, not downloaded saves or quick states.
 
 ## M8 — Active: verified original PC baseline
 
@@ -18,12 +18,13 @@ Dependencies: M7.
 | ID | Feature | Status | Acceptance criteria |
 | --- | --- | --- | --- |
 | PC06 | Separate Original and Enhanced launch policies | Done | Default Original refuses packs before runtime/disc access; Enhanced explicitly permits implemented packs; synthetic tests and native original/enhanced/restoration controls, requested-vs-actual receipt provenance. Not full accuracy or settings UI. |
-| OB01 | Resolve or precisely bound retail translation diagnostics | Planned | Investigate the retained generation error and warnings; document affected paths and observed consequences without guessed stubs or suppression. |
+| OB01 | Resolve or precisely bound retail translation diagnostics | In progress | Investigate the retained generation error and warnings; document affected paths and observed consequences without guessed stubs or suppression. Current emitted-body dead-tail classification is bounded by compiler/entry/negative controls; preserve the reported error and investigate remaining warnings/guest coverage separately. |
 | OB02 | Prove genuine in-game persistence | In progress | Actual game Save, process closure and new-process Load with state/progression evidence; runtime snapshots and card-file presence do not qualify. |
 | OB03 | Verify physical input and audible audio | Planned | Owner/hardware round trips for keyboard and controller, mapping/persistence and audible output; distinguish scripted/headless tests. |
 | OB04 | Validate representative original behavior | Planned | Named-reference comparisons for scenes, combat timings/AI/camera, cutscenes, bosses and transitions; retain failures and per-scenario coverage. |
 | OB05 | Organize human campaign validation | Planned | Legitimate saves and human playthrough checklist, progression/save regression matrix; no autonomous level-beating loops or untested full-game claim. |
 | PC07 | Remove inherited timeout and preserve persistent controls | Done | Explicit unlimited normal-launch intent; bounded hidden policy retained. Workspace controls with byte-copy adoption/reuse and isolated diagnostics; guarded native UI edit/save/new-process reload; timer120s/explicit-zero controls; public220s scene regression and unchanged originals. No hardware/game-save claim. |
+| OB06 | Bound retained diagnostic with native negative controls | Done | Retained original error/counter and unchanged native build; exact generated C++ body/entry audit and compiler reachability checks under both return modes. Three original ELF controls and four native return/throw outcomes; clean committed public recipe and portable synthetic CI. Not full guest-PC/ISA/game coverage. |
 
 ## M9 — Active architecture: maintainable, reversible PC enhancements
 

@@ -37,6 +37,19 @@ pause the running game. Investigate safe pause/resume before adding settings.
 No personal save is currently available; genuine retail Save/Load stays open,
 not replaced by downloaded saves, snapshots or autonomous level-beating loops.
 
+## Translation-diagnostic boundary — 2026-11-09
+
+The dated translation-diagnostic report bounds the retained error to a compiler-
+unreachable block in the current inspected generated C++ body, with six entry
+aliases and default/strict-return checks. It does NOT prove original guest-PC
+coverage or implement the unknown instruction. Preserve the error/counter and
+warnings; do not insert NOPs/stubs or infer harmlessness from a preceding return.
+Original synthetic ELF controls include an early branch that DOES reach a tail.
+The public GPL native probe passes four direct-call outcomes; this is not game
+or hardware execution. Source exposure stays recorded/private, no new Rust or
+public game-derived source. Read the separate TRANSLATION_DIAGNOSTICS.md before
+repeating the experiment; use existing pinned tools and fresh ignored outputs.
+
 ## Execution direction — owner decision, 2026-11-06
 
 The separate GPL continuation tooling is [god-hand-pc](https://github.com/YYoudi/god-hand-pc).
