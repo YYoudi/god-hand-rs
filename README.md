@@ -1,28 +1,30 @@
-# God Hand — PC-port journal and preserved independent lab
+# God Hand — historical independent Rust/Bevy lab
 
-The active PC project is [god-hand-pc](https://github.com/YYoudi/god-hand-pc):
-continue the evaluated LasVola native base, verify the original game, then add
-reversible PC improvements. It contains original GPL continuation tooling and
-privately fetches pinned upstream; it is not a mirror or a finished remaster.
-Each user needs the supported personal ISO. No game material is distributed.
+**Paused, not achieved.** This MIT laboratory is historical. Existing source,
+pending work, tests, original screenshots, old pages and Git history are preserved.
+No new Rust work or current PC-port progress will be committed here.
 
-Read [the medium-term direction](docs/pc-direction-2026-11-09.md),
-[the roadmap](ROADMAP.md) and [the English journal](https://yyoudi.github.io/god-hand-rs/dashboard/).
-Original/Enhanced launch policies begin the extension boundary; they are not a
-settings menu, HD/FPS support or a full-game accuracy certificate. Real game
-Save/Load, physical input/audio and broader campaign fidelity remain open.
+The single active project is [god-hand-pc](https://github.com/YYoudi/god-hand-pc),
+the separate GPL continuation of LasVola. It requires a personal USA retail ISO,
+distributes no game and does not yet claim a complete accurate port or remaster.
 
-The corrected local ISO build and opening/first-fight scene are reproduced.
-The named same-size texture bridge passes enabled, disabled and invalid-pack
-fallback controls. The separate native prototype links but startup blocks on
-kernel syscall0x7a; no working debug menu is claimed.
+- [Active development journal](https://yyoudi.github.io/god-hand-pc/)
+- [Current roadmap](https://yyoudi.github.io/god-hand-pc/roadmap.html)
+- [Reports and original comparisons](https://yyoudi.github.io/god-hand-pc/comparisons.html)
+- [Preserved historical journal](https://yyoudi.github.io/god-hand-rs/dashboard/)
+- [Final transition notice](docs/historical-status-2026-11-09.md)
+
+Selected earlier PC reports/entries were migrated as historical records, not new
+results. Selected reviewed screenshot originals retain exact bytes, hashes and
+provenance. This repository remains unarchived; Pages/link consequences of GitHub
+archiving have not been assumed safe.
 
 ## Preserved MIT independent engine lab — paused, not achieved
 
 This repository retains original Rust/Bevy research, tests, pending edits and
 unchanged comparison screenshots. No new Rust engine features are planned.
-The existing free GitHub Pages journal/task registry also follows the separate
-GPL continuation; licenses and results must not be conflated.
+The existing GitHub Pages journal is a preserved historical record, not the
+current PC backlog. Licenses and results must not be conflated.
 
 The following describes the preserved lab, not the active playable-PC architecture.
 

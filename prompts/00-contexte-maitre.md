@@ -1,5 +1,16 @@
 # Session context — faithful PC continuation; independent lab paused
 
+## Final communication transition — owner decision, 2026-11-09
+
+This repository is historical, paused and not achieved. All future PC code,
+documentation, tasks and journal updates belong solely in G:/God-Hand-PC,
+YYoudi/god-hand-pc. Read its AGENTS.md/PROGRESS.md, docs/journal.json and local
+checkpoint. Canonical blog: https://yyoudi.github.io/god-hand-pc/.
+Preserve this MIT lab's WIP, old pages, original evidence and Git history.
+No new PC progress commits here after the final transition notice; do not
+archive GitHub without checking existing Pages/link consequences. Older active
+workflow instructions below are historical. No new Rust and no delegation.
+
 ## Active direction — owner decision, 2026-11-09
 
 Continue the tested LasVola base in the separate GPL [god-hand-pc](https://github.com/YYoudi/god-hand-pc)

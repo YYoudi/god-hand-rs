@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "updated": "2026-11-09",
-  "title": "God Hand PC — development journal",
+  "title": "God Hand — historical independent lab",
   "repo": "https://github.com/YYoudi/god-hand-rs",
-  "engine": "Active GPL LasVola continuation; MIT independent Rust/Bevy lab preserved and paused",
-  "phase": "Faithful original PC baseline, then reversible modernization",
+  "engine": "Historical MIT Rust/Bevy lab, paused and not achieved; all active PC work moved to god-hand-pc",
+  "phase": "Historical archive, no future PC progress updates",
   "playable": false,
-  "next": "Investigate safe settings pause/resume and input boundaries, keeping the original runtime as control. Retain the bounded diagnostic classification and all warnings; genuine game Save/Load still needs a future legitimate state, not downloaded saves or quick states.",
+  "next": "For all active PC work and the current roadmap, use https://yyoudi.github.io/god-hand-pc/. This snapshot is historical.",
   "validation": {
     "tests": 81,
     "bevy_check": "pass",
@@ -702,6 +702,22 @@
   "updates": [
     {
       "date": "2026-11-09",
+      "title": "This lab is historical; the PC journal has moved",
+      "summary": "The independent Rust/Bevy laboratory is paused, not achieved. God Hand PC is now the sole active repository for port code, documentation, roadmap and public journal.",
+      "changes": [
+        "Old entries, comparison records, original files and Git history remain preserved here.",
+        "Selected PC reports and entries were migrated editorially, retaining original dates, attribution and limitations. Selected reviewed screenshots retain exact bytes, hashes and provenance.",
+        "No future PC progress will be committed to this lab; the full port goal continues in the separate GPL project."
+      ],
+      "validation": "This is a final editorial transition, not a new game-runtime result. The old repository remains unarchived to avoid assuming Pages/link consequences.",
+      "limits": "No completion of the independent engine, full accurate PC port or remaster is claimed. Historical entries below can contain superseded workflow descriptions.",
+      "link": {
+        "label": "Active links and preservation boundaries",
+        "url": "https://github.com/YYoudi/god-hand-rs/blob/main/docs/historical-status-2026-11-09.md"
+      }
+    },
+    {
+      "date": "2026-11-09",
       "title": "Investigating a generation error without hiding it",
       "summary": "The retained boot diagnostic sits in a compiler-unreachable tail of the inspected C++ function. That is a bounded source result, not a repaired opcode or complete game coverage.",
       "changes": [
@@ -1273,6 +1289,14 @@
   "captures": [
     {
       "kind": "dashboard",
+      "path": "captures/2026-11-09-historical-transition.jpg",
+      "date": "2026-11-09",
+      "sha256": "b440a3d848543e2f751a6eccc8b5cf963a738511697e4ad5010e9a94a21c5c80",
+      "caption": "Final historical-lab notice and the active PC journal link",
+      "source": "Unretouched actual hidden-browser screenshot of the final historical notice. No new game images, private desktop or code."
+    },
+    {
+      "kind": "dashboard",
       "path": "captures/2026-11-09-translation-diagnostic.jpg",
       "date": "2026-11-09",
       "source": "Unretouched actual hidden-browser capture of the English diagnostic investigation entry. Nonvisual source/compiler evidence; no game pixels, generated code, raw addresses or desktop content.",
@@ -1558,8 +1582,8 @@
       "The owner no longer has a personal game save available. Genuine retail Save/exit/Load remains open for a future legitimate play/test session; do not substitute downloaded saves, quick states or automatic level-completion loops.",
       "The retained boot diagnostic is compiler-unreachable in the inspected current C++ body, not erased or an implemented ISA fix. Original guest-PC coverage, unrelated warnings, changed compilers/source revisions and later-stage behavior remain unproven."
     ],
-    "next_experiment": "Investigate safe settings pause/resume and input boundaries, keeping the original runtime as control. Retain the bounded diagnostic classification and all warnings; genuine game Save/Load still needs a future legitimate state, not downloaded saves or quick states.",
-    "status": "active"
+    "next_experiment": "For all active PC work and the current roadmap, use https://yyoudi.github.io/god-hand-pc/. This snapshot is historical.",
+    "status": "historical"
   },
   "comparisons": [
     {

@@ -1,5 +1,19 @@
 # AGENTS.md — preserved independent lab and PC-port journal
 
+## Historical repository — final transition, owner decision 2026-11-09
+
+This MIT Rust/Bevy lab is HISTORICAL, paused and NOT achieved. Do not start new
+Rust features, delete WIP/evidence or rewrite its history. The sole active PC
+code/docs/roadmap/blog repository is G:/God-Hand-PC (YYoudi/god-hand-pc).
+Read that repository's AGENTS.md, PROGRESS.md, docs/journal.json and ignored
+.local/progress-checkpoint.json for all future PC work. Its canonical free blog
+is https://yyoudi.github.io/god-hand-pc/. Do not commit future PC progress here.
+The one final transition notice preserves existing journal entries, comparisons,
+original screenshots and Pages links. Do not archive GitHub without a separate
+Pages/link impact check; explicit historical status is sufficient. All dated
+active-publication instructions below are historical and superseded by this.
+The broad faithful-PC goal remains active; this migration does not complete it.
+
 ## Active direction — owner decision, 2026-11-09
 
 Continue the tested LasVola base in the separate GPL [god-hand-pc](https://github.com/YYoudi/god-hand-pc)

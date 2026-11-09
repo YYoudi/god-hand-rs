@@ -1,5 +1,13 @@
 # Progress and visual evidence protocol
 
+**Historical protocol after the 9 November 2026 communication transition.**
+The sole active PC journal/roadmap now lives in god-hand-pc, under its PROGRESS.md
+and docs/journal.json. Free blog: https://yyoudi.github.io/god-hand-pc/.
+Do not publish future PC progress here. Preserve these original comparison
+records, image files and historical pages. The MIT lab is paused, not achieved.
+The following remains the provenance protocol of the preserved records, not a
+second current PC backlog.
+
 Owner decision: 4 November 2026. Conversations remain French; public resources
 remain English. Inspired by the Giants project's explicit progress records and
 reviewed comparison gallery, not its implementation or permissions.
