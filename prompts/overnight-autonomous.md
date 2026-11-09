@@ -6,7 +6,12 @@ to recreate the whole game overnight. This historical window has ended. Do not r
 Later explicitly renewed goals use their own scope; no old automation is
 implicitly reactivated. Persistent tracking now follows docs/progress-tracking.md.
 
-## Mission
+## Historical mission — superseded, do not execute
+
+The active 2026-11-09 prompt is [pc-continuation.md](pc-continuation.md).
+The old deadline and Rust mission below are retained as history only.
+
+## Original mission
 
 Continue the existing independent Rust + Bevy recreation autonomously in
 G:\God-Hands-Recomp. Prefer measurable progress on real retail data: understand one

@@ -1,4 +1,30 @@
-# AGENTS.md — God Hand independent engine lab
+# AGENTS.md — preserved independent lab and PC-port journal
+
+## Active direction — owner decision, 2026-11-09
+
+Continue the tested LasVola base in the separate GPL [god-hand-pc](https://github.com/YYoudi/god-hand-pc)
+project toward a faithful original PC version, then reversible PC enhancements.
+Read docs/pc-direction-2026-11-09.md and that project's DIRECTION.md,
+ARCHITECTURE.md and PROFILES.md. Do not restart a whole-engine Rust/Bevy rewrite.
+The independent rendering objective is paused, not achieved; preserve its WIP,
+tests and original evidence. Dated older ACTIVE/Rust instructions below are
+historical and superseded by this direction, not current execution orders.
+
+Original baseline gates: retained build diagnostics, genuine game Save/exit/Load,
+physical input/audio, representative reference comparisons and human campaign
+testing. No autonomous level-completion loops. Original launch policy defaults
+to no continuation packs; Enhanced opts into implemented, tested extensions only.
+Profiles are not an accuracy certificate or already a settings menu. Readable
+function replacements stay separate from regenerated private game C++; prove
+identity/ABI/overlay lifetime before hooks. No HD, FPS, lighting or multiplayer
+claims without dedicated proofs. No delegation; no new Rust features.
+
+Prototype mining is bounded, private and separate from retail. The 2026-11-09
+stored-name/address candidates are static hypotheses, not recovered source or
+verified functions. Do not transplant addresses. The syscall0x7a startup/debug
+blocker remains. See docs/prototype-datamining-2026-11-09.md. Publish only reviewed
+aggregate findings, original continuation source and authorized comparisons;
+never ISOs, ELFs, dumps, raw string/maps, assets or generated game code.
 
 ## Execution direction — owner decision, 2026-11-06
 

@@ -1,43 +1,30 @@
-# God Hand · Independent Engine Lab
+# God Hand — PC-port journal and preserved independent lab
 
-## Execution direction — owner decision, 2026-11-06
+The active PC project is [god-hand-pc](https://github.com/YYoudi/god-hand-pc):
+continue the evaluated LasVola native base, verify the original game, then add
+reversible PC improvements. It contains original GPL continuation tooling and
+privately fetches pinned upstream; it is not a mirror or a finished remaster.
+Each user needs the supported personal ISO. No game material is distributed.
 
-The separate GPL continuation tooling is [god-hand-pc](https://github.com/YYoudi/god-hand-pc).
-It fetches pinned upstream privately; it is not a mirror or a finished remaster.
-Proceed with this continuation of the tested LasVola PC base; preserve
-this MIT independent lab without new Rust features. Prioritize a reproducible
-ISO-required setup and named external asset replacement. Do not spend autonomous
-work attempting to beat levels. Use targeted states/controls and legitimate
-owner-provided saves when needed; open persistence gates remain explicit.
+Read [the medium-term direction](docs/pc-direction-2026-11-09.md),
+[the roadmap](ROADMAP.md) and [the English journal](https://yyoudi.github.io/god-hand-rs/dashboard/).
+Original/Enhanced launch policies begin the extension boundary; they are not a
+settings menu, HD/FPS support or a full-game accuracy certificate. Real game
+Save/Load, physical input/audio and broader campaign fidelity remain open.
 
-The corrected personal-disc setup now completes all build steps and a bounded opening/first-fight scene; see docs/retail-setup-2026-11-06.md and god-hand-pc/SETUP.md. Preserve diagnostics even with exit0, and do not call a linked binary a verified installer or faithful runtime. The prototype native executable links but startup is blocked on unsupported kernel behavior (0x7a); no debug menu is validated.
+The corrected local ISO build and opening/first-fight scene are reproduced.
+The named same-size texture bridge passes enabled, disabled and invalid-pack
+fallback controls. The separate native prototype links but startup blocks on
+kernel syscall0x7a; no working debug menu is claimed.
 
-The public GPL named-pack bridge now relinks and passes actual enabled/disabled/invalid-pack startup controls. Selected disabled/fallback original PNGs equal the preserved baseline byte-for-byte. See docs/public-pack-bridge-2026-11-06.md. Same-size replacement is not HD support; preserve the explicit Save/Load, hardware-input/audio, later-stage and prototype-kernel gates. No new Rust work.
+## Preserved MIT independent engine lab — paused, not achieved
 
-A separate private prototype-native experiment is authorized. Read the saved HTML
-under GH-Prototype, record the exact disc/ELF profile and attempt generation/build
-without reusing retail function maps, relocations or HLE addresses blindly.
-Prototype debug-menu claims are leads until observed. Keep prototype and retail
-binaries, generated code, assets, states and fidelity claims strictly separate.
-A generation exit code alone is not a clean translation, linked PC executable,
-working debug menu or retail-fidelity result. Do not publish third-party content
-automatically; audit a distinct continuation's public file allowlist first.
+This repository retains original Rust/Bevy research, tests, pending edits and
+unchanged comparison screenshots. No new Rust engine features are planned.
+The existing free GitHub Pages journal/task registry also follows the separate
+GPL continuation; licenses and results must not be conflated.
 
-## Current priority — owner decision, 2026-11-05
-
-The final objective is a faithful, modifiable PC port and later remaster, not
-necessarily Rust/Bevy. The independent-engine rendering goal is **paused, not
-achieved**. Preserve its source, pending edits, tests and original evidence; do
-not start new Rust features. Evaluate LasVola/godhand-recomp first through a real
-local build and modification experiment, then LucasPicoli/god-hand-decomp as a
-separate matching-decompilation/comprehension project. Follow
-[the evaluation workflow](docs/port-evaluation-workflow.md). Keep all third-party
-checkouts, generated game code, ELF/assets/dumps and GPL experiments in ignored
-research workspaces, never in the public MIT engine. Record exposure explicitly;
-any future component using decompiled code is not an independent reimplementation.
-No automatic republication of third-party content. No delegation. Public journal
-and resources stay English, factual and on free GitHub Pages.
-
+The following describes the preserved lab, not the active playable-PC architecture.
 
 An independent **Rust + Bevy** engine reimplementation for **God Hand (USA, PS2)**.
 Original code is public under MIT. Each user must provide their own ISO.
@@ -62,7 +49,7 @@ The texture inspection view reads your ISO; the sandbox contains original primit
 - [Contributing](CONTRIBUTING.md) · [Licensing and scope](NOTICE.md)
 - [Native backend outputs and their use](docs/native-backend-outputs.md)
 
-## Getting started
+## Historical lab usage (paused)
 
 Install Rust **1.98+** and the [Bevy prerequisites](https://bevy.org/learn/quick-start/getting-started/setup/).
 Bevy is pinned to **0.20.1**; Cargo.lock pins its dependencies.

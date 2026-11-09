@@ -1,5 +1,9 @@
 # Independent-engine workflow
 
+> Historical independent-lab documentation; new Rust work is paused, not complete.
+> Current PC continuation: [direction](pc-direction-2026-11-09.md) and the separate
+> [GPL architecture](https://github.com/YYoudi/god-hand-pc/blob/main/ARCHITECTURE.md).
+
 Current priority (2026-11-05): the independent engine is paused, not achieved.
 Evaluate the separate faithful PC-port/remaster route under
 [port-evaluation-workflow.md](port-evaluation-workflow.md). The original engine
