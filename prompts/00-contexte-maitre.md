@@ -26,6 +26,17 @@ blocker remains. See ../docs/prototype-datamining-2026-11-09.md. Publish only re
 aggregate findings, original continuation source and authorized comparisons;
 never ISOs, ELFs, dumps, raw string/maps, assets or generated game code.
 
+## Verified usability boundary — 2026-11-09
+
+Read the separate GPL USER_DATA.md and the dated PC usability report. Normal
+launch must explicitly disable inherited diagnostic timeouts; hidden public runs
+remain bounded. Reuse the upstream F1 screen, isolate controls preferences and
+disable mutating self-tests for ordinary launches. Saved controls are not game
+saves; injected UI commands are not hardware input. The overlay does not itself
+pause the running game. Investigate safe pause/resume before adding settings.
+No personal save is currently available; genuine retail Save/Load stays open,
+not replaced by downloaded saves, snapshots or autonomous level-beating loops.
+
 ## Execution direction — owner decision, 2026-11-06
 
 The separate GPL continuation tooling is [god-hand-pc](https://github.com/YYoudi/god-hand-pc).

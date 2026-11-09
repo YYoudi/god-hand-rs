@@ -6,14 +6,16 @@
   "engine": "Active GPL LasVola continuation; MIT independent Rust/Bevy lab preserved and paused",
   "phase": "Faithful original PC baseline, then reversible modernization",
   "playable": false,
-  "next": "Audit genuine game-card persistence and existing upstream PC options; choose one reversible host-setting or verified function boundary. No autonomous level completion or new Rust features.",
+  "next": "Investigate safe pause/resume and input boundaries of the existing PC controls screen. Genuine game Save/exit/Load awaits a future legitimate play/test state; do not substitute snapshots or autonomous level completion.",
   "validation": {
     "tests": 81,
     "bevy_check": "pass",
     "viewer_runtime": "The recorded blue ground bands are removed in both full-resource Repeat controls without changing cameras, geometry, resources, sampler, culling or order. A generic constant-channel fix keeps128 from drifting to127 and restores opaque ground depth. Four official controls and independent original-renderer pixel probes pass. Normal interactive inspector unchanged.",
-    "gameplay": "Not implemented",
-    "pc_tooling_tests": 89,
-    "pc_runtime": "Two 220-second fresh Original/Enhanced controls at cc62cb7 end124 as configured; selected original PNGs equal historical controls. No full-game accuracy or real-save/hardware-input/audio result."
+    "gameplay": "Independent lab not playable. Separate native base reaches the sampled first fight; complete original-game coverage remains unverified.",
+    "pc_tooling_tests": 102,
+    "pc_runtime": "Two 220-second fresh Original/Enhanced controls at cc62cb7 end124 as configured; selected original PNGs equal historical controls. No full-game accuracy or real-save/hardware-input/audio result.",
+    "pc_tooling_local": "Windows: 102 collected, 101 passed, one symlink-creation privilege skip; no game fixtures or system privilege changes.",
+    "pc_tooling_ci": "Linux public CI42614352536 passes at f770aa2; Windows local symlink-creation skip remains documented."
   },
   "milestones": [
     {
@@ -41,7 +43,7 @@
         {
           "id": "OB02",
           "title": "Prove genuine in-game persistence",
-          "status": "planned",
+          "status": "in_progress",
           "area": "pc",
           "acceptance": "Actual game Save, process closure and new-process Load with state/progression evidence; runtime snapshots and card-file presence do not qualify."
         },
@@ -65,6 +67,13 @@
           "status": "planned",
           "area": "pc",
           "acceptance": "Legitimate saves and human playthrough checklist, progression/save regression matrix; no autonomous level-beating loops or untested full-game claim."
+        },
+        {
+          "id": "PC07",
+          "title": "Remove inherited timeout and preserve persistent controls",
+          "status": "done",
+          "area": "pc",
+          "acceptance": "Explicit unlimited normal-launch intent; bounded hidden policy retained. Workspace controls with byte-copy adoption/reuse and isolated diagnostics; guarded native UI edit/save/new-process reload; timer120s/explicit-zero controls; public220s scene regression and unchanged originals. No hardware/game-save claim."
         }
       ]
     },
@@ -93,7 +102,7 @@
         {
           "id": "RM03",
           "title": "Audit and expose coherent PC settings",
-          "status": "planned",
+          "status": "in_progress",
           "area": "pc",
           "acceptance": "Reuse existing upstream options; implement validated persistent settings/menu and reversible capabilities without claiming unimplemented features."
         },
@@ -686,6 +695,23 @@
   "updates": [
     {
       "date": "2026-11-09",
+      "title": "A normal launch should not stop after two minutes",
+      "summary": "The launcher no longer inherits a diagnostic timeout when no duration is requested. Existing native controls can be saved and read in a new process; the continuation now isolates their preferences.",
+      "changes": [
+        "Normal launch explicitly requests no time limit. Hidden tests remain bounded; this does not unlock FPS or alter simulation timing.",
+        "Reused the existing upstream F1 controls screen rather than building a duplicate. Workspace preferences preserve an existing controls file byte-for-byte; fresh diagnostics stay separate.",
+        "Observed native UI edit/save and new-process reload through guarded command injection. Ordinary launches disable that mutating test mode.",
+        "A fresh 220-second public-launcher run retains the original sampled scene PNG byte-for-byte. Published selected default/reloaded controls originals with background differences left visible."
+      ],
+      "validation": "102 local synthetic tests collected: 101 pass, one Windows symlink-privilege skip. Native inherited-limit control exits at 120.14 s; explicit zero survives 132 s before an intentional watchdog stop. Controls edit/reload checks pass; the public scene regression ends at its 220 s deadline with 40 captures. Public Linux continuation CI passes all 102 tests, including symlink rejection.",
+      "limits": "The menu is upstream work, not our new settings UI. Its overlay does not automatically pause the game. Software command injection is not physical-input evidence, and controls persistence is not game Save/Load. Audible audio, later stages, HD/FPS/lighting and full fidelity remain open.",
+      "link": {
+        "label": "Timer controls, native UI evidence and remaining persistence gates",
+        "url": "https://github.com/YYoudi/god-hand-rs/blob/main/docs/pc-usability-2026-11-09.md"
+      }
+    },
+    {
+      "date": "2026-11-09",
       "title": "Original first; modernize in reversible steps",
       "summary": "The active direction is the LasVola PC continuation, not a new engine rewrite. The preserved Rust lab remains paused, and unfinished historical tasks are now labeled accordingly.",
       "changes": [
@@ -1223,6 +1249,22 @@
   "captures": [
     {
       "kind": "dashboard",
+      "path": "captures/2026-11-09-launch-lifetime-controls.jpg",
+      "date": "2026-11-09",
+      "source": "Unretouched actual hidden-browser capture of the English launch-lifetime/controls entry. No game imagery, raw preferences or private desktop pixels.",
+      "caption": "Unlimited launch intent, isolated controls and explicitly open game-save gates",
+      "sha256": "81a6817ac05da1c004c1da47dad332ffba1286be5d02dcaa2a611f4a4b55c386"
+    },
+    {
+      "kind": "dashboard",
+      "path": "captures/2026-11-09-controls-comparison.jpg",
+      "date": "2026-11-09",
+      "source": "Unretouched actual hidden-browser view of the reviewed native controls comparison. Thumbnails contain only the two manifest-registered originals; no new unreviewed game material.",
+      "caption": "Existing upstream controls: defaults and a saved binding reloaded",
+      "sha256": "c49fef7673411cf0389c57164be48c9d9c7c1d99895bb697d524d2f8aa0ef5e1"
+    },
+    {
+      "kind": "dashboard",
       "path": "captures/2026-11-09-faithful-pc-direction.jpg",
       "date": "2026-11-09",
       "source": "Unretouched actual hidden-browser capture of the English direction/profile/prototype entry. No game imagery, raw maps, generated code or desktop pixels.",
@@ -1472,19 +1514,66 @@
   "progress": {
     "goal": "Faithful original PC baseline on the LasVola continuation, then readable, reversible PC improvements; no whole-engine rewrite by default.",
     "baseline_revision": "988452e15ddad6f516993be6b4eb66c143382409",
-    "last_verified": "Public separate GPL tooling be36b8a has81 original synthetic tests and an ISO-required fresh Windows build recipe. Pinned14e956a fresh build reaches opening/first-fight scene; baseline preserved. Original host bridge installed/relinked to private1930765; public launcher8b70389 used for three220s hidden native runs, terminal124. Named original magenta ground renders; disabled and invalid-hash fallback selected4741PNG are byte-identical to the pre-adapter baseline. Strict invalid-pack/wrong-disc actual refusals exit1. No generated game material public. MIT lab/four pending Rust files unchanged and paused, not achieved. Prototype native121732608-byte executable links but60s startup blocks on unsupported kernel0x7a with no framebuffer/title/debug. Lucas compiler probes/sample object pass, interrupted full ELF/map remain zero bytes; no matching rebuild. See dated reports and original comparison provenance; not full-game/HD/save-load validation. On 9 November, GPL cc62cb7/CI42610086957 pass89synthetic tests. Two new220s fresh native policy controls finish124; Original refuses packs prelaunch, Original/Enhanced selected4741PNGs equal prior disabled/enabled originals byte-for-byte, same executable and unchanged ISO. Bounded private metadata probe yields659prototype/743retail candidate name/address records with556common names;3invented-data tests, no executed function/ABI claims or new prototype boot.",
+    "last_verified": "Public separate GPL tooling be36b8a has81 original synthetic tests and an ISO-required fresh Windows build recipe. Pinned14e956a fresh build reaches opening/first-fight scene; baseline preserved. Original host bridge installed/relinked to private1930765; public launcher8b70389 used for three220s hidden native runs, terminal124. Named original magenta ground renders; disabled and invalid-hash fallback selected4741PNG are byte-identical to the pre-adapter baseline. Strict invalid-pack/wrong-disc actual refusals exit1. No generated game material public. MIT lab/four pending Rust files unchanged and paused, not achieved. Prototype native121732608-byte executable links but60s startup blocks on unsupported kernel0x7a with no framebuffer/title/debug. Lucas compiler probes/sample object pass, interrupted full ELF/map remain zero bytes; no matching rebuild. See dated reports and original comparison provenance; not full-game/HD/save-load validation. On 9 November, GPL cc62cb7/CI42610086957 pass89synthetic tests. Two new220s fresh native policy controls finish124; Original refuses packs prelaunch, Original/Enhanced selected4741PNGs equal prior disabled/enabled originals byte-for-byte, same executable and unchanged ISO. Bounded private metadata probe yields659prototype/743retail candidate name/address records with556common names;3invented-data tests, no executed function/ABI claims or new prototype boot. Native usability increment f770aa2: guarded upstream F1 edit/save and same-file fresh-process reload each PASS3checks; existing configs/disc unchanged. Inherited timer exits124at120.14s; explicit-zero survives132s then intentional owned-watchdog stop. Public fresh220s run90ab7c3 ends124/40captures, workspacecontrols initialized withselftest0 and selected4741baseline exact. Local102collected/101pass/1Windows symlink-privilege skip; no newRust/host relink.",
     "open_questions": [
       "Genuine in-game saving then loading in a new process is not yet reproduced; workspace cards/runtime snapshots are not a substitute. Use owner-provided legitimate states rather than autonomous level completion.",
       "Only one bounded same-size stored texture is supported. Broader resources, decoded RGBA import, true HD dimensions and hot reload need separate contracts and actual rendering proofs.",
       "Known upstream screenshot padding remains in the fresh/public bridge configuration. Physical input, audible audio, later-stage stability, unresolved translation diagnostics and full reference fidelity remain open.",
       "Prototype native startup is blocked by unsupported kernel syscall0x7a; no title/debug menu. Lucas Linux full matching ELF/map remain zero bytes after interrupted build; no complete decompilation or PC-port claim.",
       "Private stored-name/address candidates in both ELF builds are not verified runtime identities; camera FPS labels can mean first-person, not frame rate.",
-      "Widescreen, simulation-safe FPS, lighting/renderer modernization and multiplayer remain distinct future gates, not capabilities enabled by profile names."
+      "Widescreen, simulation-safe FPS, lighting/renderer modernization and multiplayer remain distinct future gates, not capabilities enabled by profile names.",
+      "The existing controls overlay says the game keeps running; intro background changes under it. Validate safe simulation pause/resume before presenting an expanded settings screen as safe during combat. Genuine game Save/Load requires separate owner-state evidence.",
+      "The owner no longer has a personal game save available. Genuine retail Save/exit/Load remains open for a future legitimate play/test session; do not substitute downloaded saves, quick states or automatic level-completion loops."
     ],
-    "next_experiment": "Audit genuine game-card persistence and existing upstream PC options; choose one reversible host-setting or verified function boundary. No autonomous level completion or new Rust features.",
+    "next_experiment": "Investigate safe pause/resume and input boundaries of the existing PC controls screen. Genuine game Save/exit/Load awaits a future legitimate play/test state; do not substitute snapshots or autonomous level completion.",
     "status": "active"
   },
   "comparisons": [
+    {
+      "id": "2026-11-09-native-controls-persistence",
+      "date": "2026-11-09",
+      "title": "Reusing the native controls screen: a saved binding reloaded",
+      "feature": "PC07",
+      "scenario": "Guarded upstream native UI tests on isolated preferences: default layout, edit/save, same-file new-process reload, then a separate fresh process displaying an exact saved-file snapshot. No hardware-key injection or game-save import.",
+      "alignment": "same-landmark",
+      "reviewed": true,
+      "labels": {
+        "reference": "Upstream default controls",
+        "bevy": "Saved binding — reloaded upstream controls"
+      },
+      "observations": [
+        "The same native controls layout shows an additional U binding in the Combo/Square row after reading the saved preferences. Both full original images are 800x600.",
+        "Edit/save and same-file new-process reload each report three successful serialized/live/hold checks. The reloaded-view capture uses an exact preference snapshot and does not edit it.",
+        "The UI and renderer are upstream work; our public changes isolate preference storage and launch lifetime. No new native relink or generated game-function patch."
+      ],
+      "limits": [
+        "These are native host-controls screens, not Bevy or a new menu authored by us. Commands are injected through the upstream guarded self-test, not a physical keyboard/controller.",
+        "The intro background and displayed configuration filenames differ; no matched game frame, camera or full-image fidelity comparison is claimed. Original padding remains visible.",
+        "The controls overlay says the game keeps running. Safe gameplay pause/resume, actual card Save/Load and audible audio remain unverified."
+      ],
+      "reference": {
+        "caption": "Existing native default controls, before the isolated rebind.",
+        "profile": "retail-usa",
+        "runtime": "LasVola native OpenGL controls UI; guarded upstream self-test; original GPL bridge present, no asset pack",
+        "revision": "193076584e277c95644dcbbb4a6922c3a59ca2b8",
+        "captured_at": "2026-11-09T11:54:01.760017+00:00",
+        "path": "media/d85d28ee5c79e0e89495a7cc2608c137f10cddccd8d0891f1a6069fa94f69f54.png",
+        "sha256": "d85d28ee5c79e0e89495a7cc2608c137f10cddccd8d0891f1a6069fa94f69f54",
+        "width": 800,
+        "height": 600
+      },
+      "bevy": {
+        "caption": "Fresh process displays the saved U binding; no unsaved marker. Background differs.",
+        "profile": "retail-usa",
+        "runtime": "LasVola native OpenGL controls UI; guarded upstream self-test; original GPL bridge present, no asset pack",
+        "revision": "193076584e277c95644dcbbb4a6922c3a59ca2b8",
+        "captured_at": "2026-11-09T12:06:18.943529+00:00",
+        "path": "media/2418115da133adcbe5086081fbe9e9e7157c0336749f9f2e8c9d9ba6e8f340ce.png",
+        "sha256": "2418115da133adcbe5086081fbe9e9e7157c0336749f9f2e8c9d9ba6e8f340ce",
+        "width": 800,
+        "height": 600
+      }
+    },
     {
       "id": "2026-11-06-public-native-pack-bridge",
       "date": "2026-11-06",

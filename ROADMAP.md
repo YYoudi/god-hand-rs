@@ -7,7 +7,7 @@ Updated: 2026-11-09. **LasVola PC continuation active; independent engine paused
 Each task is a verifiable deliverable, not an estimate of game coverage.
 Done applies only to the stated criteria. No release schedule is promised.
 
-Next useful evidence: Audit genuine game-card persistence and existing upstream PC options; choose one reversible host-setting or verified function boundary. No autonomous level completion or new Rust features.
+Next useful evidence: Investigate safe pause/resume and input boundaries of the existing PC controls screen. Genuine game Save/exit/Load awaits a future legitimate play/test state; do not substitute snapshots or autonomous level completion.
 
 ## M8 — Active: verified original PC baseline
 
@@ -19,10 +19,11 @@ Dependencies: M7.
 | --- | --- | --- | --- |
 | PC06 | Separate Original and Enhanced launch policies | Done | Default Original refuses packs before runtime/disc access; Enhanced explicitly permits implemented packs; synthetic tests and native original/enhanced/restoration controls, requested-vs-actual receipt provenance. Not full accuracy or settings UI. |
 | OB01 | Resolve or precisely bound retail translation diagnostics | Planned | Investigate the retained generation error and warnings; document affected paths and observed consequences without guessed stubs or suppression. |
-| OB02 | Prove genuine in-game persistence | Planned | Actual game Save, process closure and new-process Load with state/progression evidence; runtime snapshots and card-file presence do not qualify. |
+| OB02 | Prove genuine in-game persistence | In progress | Actual game Save, process closure and new-process Load with state/progression evidence; runtime snapshots and card-file presence do not qualify. |
 | OB03 | Verify physical input and audible audio | Planned | Owner/hardware round trips for keyboard and controller, mapping/persistence and audible output; distinguish scripted/headless tests. |
 | OB04 | Validate representative original behavior | Planned | Named-reference comparisons for scenes, combat timings/AI/camera, cutscenes, bosses and transitions; retain failures and per-scenario coverage. |
 | OB05 | Organize human campaign validation | Planned | Legitimate saves and human playthrough checklist, progression/save regression matrix; no autonomous level-beating loops or untested full-game claim. |
+| PC07 | Remove inherited timeout and preserve persistent controls | Done | Explicit unlimited normal-launch intent; bounded hidden policy retained. Workspace controls with byte-copy adoption/reuse and isolated diagnostics; guarded native UI edit/save/new-process reload; timer120s/explicit-zero controls; public220s scene regression and unchanged originals. No hardware/game-save claim. |
 
 ## M9 — Active architecture: maintainable, reversible PC enhancements
 
@@ -34,7 +35,7 @@ Dependencies: M8.
 | --- | --- | --- | --- |
 | RM01 | Map one verifiable function/subsystem boundary | Planned | Record provenance and validate one identity/ABI/overlay lifetime against actual runtime evidence; static name/address candidates alone do not qualify. |
 | RM02 | Introduce one readable behavior-preserving replacement | Planned | Version original replacement source outside generated outputs; original/replacement non-regression, fallback and regeneration controls. |
-| RM03 | Audit and expose coherent PC settings | Planned | Reuse existing upstream options; implement validated persistent settings/menu and reversible capabilities without claiming unimplemented features. |
+| RM03 | Audit and expose coherent PC settings | In progress | Reuse existing upstream options; implement validated persistent settings/menu and reversible capabilities without claiming unimplemented features. |
 | PC04 | Verify another named resource and restoration | Planned | A second named resource/scene, original authored payload, exact supported storage contract and actual enabled/disabled/fallback controls; no guessed offsets or expanded format claims. |
 | PC05 | Prove a size-aware HD asset upload boundary | Planned | Specify resource-to-host upload ownership; import an original larger texture without republishing game assets, actually render and compare from one viewpoint. Same-size replacement is not acceptance. |
 | RM04 | Validate widescreen | Planned | Projection/FOV, HUD, cinematics and culling verified against 4:3 controls; no image stretching. |
